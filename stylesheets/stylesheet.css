@@ -1,0 +1,52 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+table {
+  width:100%;
+  height:100%;
+}
+
+td {
+	border-collapse: collapse;
+	width: 5%;
+	height:5%;
+	border-left: 1px dashed #fafafa;
+	border-bottom: 1px dashed #fafafa;
+}
+
+#tetris {
+	margin: 0 auto;
+	width:240px;
+	height:480px;
+	background:black;
+}
+
+@media (max-width: 960px) {
+	#tetris {
+		margin: 0 auto;
+		width:400px;
+		height:800px;
+		background:black;
+	}
+}
+
+
+@media (max-width: 320px) {
+	#tetris {
+		margin: 0 auto;
+		width:150px;
+		height:300px;
+		background:black;
+	}
+}
+
+@media (max-width: 480px) {
+	#tetris {
+		margin: 0 auto;
+		width:240px;
+		height:480px;
+		background:black;
+	}
+}
